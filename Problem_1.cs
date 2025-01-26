@@ -73,4 +73,8 @@ class EmployeeBonusCalculator
         Console.WriteLine("Total Bonus: " + totalBonus.ToString("F2"));
         Console.WriteLine("Total New Salary: " + totalNewSalary.ToString("F2"));
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ControlFlowPractices_Level_2
