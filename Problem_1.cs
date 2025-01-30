@@ -4,7 +4,7 @@ class AlphabetChecker
 {
     public static void Main()
     {
-        // Input an integer value
+        // Input a String
         Console.Write("Enter a string: ");
         string input = Console.ReadLine();
 

@@ -1,10 +1,10 @@
 using System;
 
-class ReverseString
+class PalindromeCheck
 {
     public static void Main(string[] args)
     {
-        // Input a String
+        // Input an String
         Console.Write("Enter a string: ");
         string input = Console.ReadLine();
 
@@ -17,7 +17,9 @@ class ReverseString
             reversedString += input[i];  // Append each character to the reversed string
         }
 
-        // Output the reversed string
-        Console.WriteLine("Reversed string: " + reversedString);
+        if (reversedString == input)
+			Console.WriteLine( input + " is a palindrome");
+		else
+			Console.WriteLine( input + " is a not palindrome");
     }
 }
