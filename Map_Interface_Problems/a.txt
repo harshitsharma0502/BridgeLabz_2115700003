@@ -1,0 +1,2 @@
+Hello world, hello C#!
+Hello everyone, Welcome to the world of programming.
